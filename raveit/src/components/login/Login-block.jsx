@@ -2,14 +2,12 @@ const Login = () => {
   return (
     <div className="login">
       <div className="login__logo">
-        <img />
+        <img src="./" alt="spotify-logo"/>
       </div>
-      <div>
-        <label htmlFor="username">Email address or username</label>
-        <input type="text" name="username" placeholder="Email address or username"/>
-
-        <label htmlFor="username">Password</label>
-        <input type="text" name="password" placeholder="Password"/>
+      <h1 className="login__title">Login to continue.</h1>
+      <div className="login__fields">
+        <input type="text" name="username" placeholder="Email or username"/>
+        <input type="password" name="password" placeholder="Password"/>
       </div>
       <div className="login__secondary">
 
@@ -17,10 +15,10 @@ const Login = () => {
       <div className="login__signup">
         <span>
           Don't have an account?
-          <a href="#">sign up</a>
+          <a href="https://www.google.com">sign up</a>
         </span>
 
-        <a href="#">reset password</a>
+        <a href="https://www.google.com">reset password</a>
       </div>
     </div>
   );
